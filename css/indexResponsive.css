@@ -1,0 +1,58 @@
+@media (max-width: 530px) {
+    .card__container {
+        flex-direction: column;
+        height: unset;
+    }
+
+    .card__perfume__background__desktop {
+        display: none;
+    }
+
+    .card__perfume__background__mobile {
+        display: block;
+    }
+
+    .card__txt__title {
+        font-size: 2.2em;
+    }    
+
+    .card__perfume {
+        width: unset;
+        height: 100%;
+    }
+
+    .card__infos {
+        max-width: unset;
+        padding: 1.5em;
+        height: 100%;
+    }
+
+    /* Disable on mobile devices */
+    .card__txt__btn__add:hover {
+        background-color: var(--Dark__cyan);
+    }
+}
+
+@media (max-width: 250px) {
+    body {
+        font-size: .7rem;
+    }
+
+    .card__txt__title {
+        font-size: 2em;
+        line-height: 1.5rem;
+    }
+
+    .card__txt__paragraph {
+        line-height: 1.2rem;
+    }
+
+    .card__txt__price {
+        gap: 0em;
+        flex-direction: column-reverse;
+    }
+
+    .card__txt__descount__price {
+        font-size: 1.4rem;
+    }
+}
