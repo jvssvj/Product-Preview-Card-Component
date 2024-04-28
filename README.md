@@ -24,7 +24,7 @@
 <div align='center'>
   <h2>Preview</h2>
   <img src="./design/desktop-preview.jpg" alt="Product Preview Card Preview">
-  <p>Design preview for the Product Preview Card Component Challenge.</p>
+  <p>Design preview for the Product Preview Card Component challenge.</p>
 </div>
 
 <br>
